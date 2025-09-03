@@ -1,0 +1,92 @@
+/* =============================
+   THEME VARIABLES (LIGHT MODE)
+   ============================= */
+:root {
+  --background: #ffffff;
+  --foreground: #4b5563;
+  --card: #fffbeb;
+  --card-foreground: #4b5563;
+  --popover: #ffffff;
+  --popover-foreground: #4b5563;
+  --primary: #ea580c;
+  --primary-foreground: #ffffff;
+  --secondary: #f97316;
+  --secondary-foreground: #ffffff;
+  --muted: #fefce8;
+  --muted-foreground: #4b5563;
+  --accent: #f97316;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #e5e7eb;
+  --input: #ffffff;
+  --ring: #f97316;
+  --chart-1: #ea580c;
+  --chart-2: #f97316;
+  --chart-3: #fffbeb;
+  --chart-4: #4b5563;
+  --chart-5: #fefce8;
+  --radius: 0.5rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #4b5563;
+  --sidebar-primary: #ea580c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f97316;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: #f97316;
+}
+
+/* =============================
+   THEME VARIABLES (DARK MODE)
+   ============================= */
+.dark {
+  --background: #1f2937;
+  --foreground: #f9fafb;
+  --card: #374151;
+  --card-foreground: #f9fafb;
+  --popover: #1f2937;
+  --popover-foreground: #f9fafb;
+  --primary: #f97316;
+  --primary-foreground: #ffffff;
+  --secondary: #ea580c;
+  --secondary-foreground: #ffffff;
+  --muted: #374151;
+  --muted-foreground: #9ca3af;
+  --accent: #f97316;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #4b5563;
+  --input: #374151;
+  --ring: #f97316;
+  --chart-1: #f97316;
+  --chart-2: #ea580c;
+  --chart-3: #374151;
+  --chart-4: #9ca3af;
+  --chart-5: #4b5563;
+  --sidebar: #1f2937;
+  --sidebar-foreground: #f9fafb;
+  --sidebar-primary: #f97316;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ea580c;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #4b5563;
+  --sidebar-ring: #f97316;
+}
+
+/* =============================
+   BASE STYLES
+   ============================= */
+* {
+  border-color: var(--border);
+  outline-color: color-mix(in srgb, var(--ring) 50%, transparent);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
